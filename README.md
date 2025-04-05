@@ -24,6 +24,10 @@ Add the following line, replacing the Brackets <> with the right contents
 
 ```"<Path/To/Python313/python>" "<Path/to/AddPauseForSheetPostprocessingScript.py>" -offset 0.10 -message "Place sheet" -speed 2400 -liftDistance 50.00000```
 
+## Export your file like normal
+Should work with prusa connect and octopi
+
+
 
 # Arguments
 ```-offset 0.10```
