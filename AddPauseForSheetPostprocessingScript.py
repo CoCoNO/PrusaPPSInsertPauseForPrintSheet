@@ -3,7 +3,7 @@ import sys
 import re
 import os
 import logging
-import debugpy
+#import debugpy
 import argparse
 import time
 
@@ -12,14 +12,14 @@ RGX_FIND_G1Z = r"G1.* [zZ]([-0-9.]+)"
 
 
 
-# Listen on a specific port (e.g., 5678)
-debugpy.listen(5678)
+# # Listen on a specific port (e.g., 5678)
+# debugpy.listen(5678)
 
-# # Wait for a debugger to attach
-print("Waiting for debugger to attach...")
-debugpy.wait_for_client()
-print("Debugger attached, continuing execution...")
-breakpoint()
+# # # Wait for a debugger to attach
+# print("Waiting for debugger to attach...")
+# debugpy.wait_for_client()
+# print("Debugger attached, continuing execution...")
+# breakpoint()
 
 
 def main(sourceFile,offset,message,speed,liftDistance):
